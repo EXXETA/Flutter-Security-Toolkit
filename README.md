@@ -1,5 +1,8 @@
 # Mobile Security Toolkit
 
+![License](https://img.shields.io/github/license/EXXETA/Flutter-Security-Toolkit.svg?style=flat-square)
+![Release](https://img.shields.io/github/release/EXXETA/Flutter-Security-Toolkit.svg?style=flat-square)
+
 <img src="./docs/1.png" width=300  alt="screenshot"/>
 
 In a world where mobile devices hold vast amounts of personal and
@@ -33,6 +36,21 @@ Swift Package Manager
 `.package(url: "https://github.com/EXXETA/iOS-Security-Toolkit.git", from:
 "1.0.0")`
 
+
+!Important:
+
+Make sure your `android/build.gradle` contains following:
+```
+allprojects {
+    repositories {
+        .
+        .
+        .
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
 ## Usage
 
 ### Variable API
@@ -63,8 +81,8 @@ See [CONTRIBUTING](./CONTRIBUTING.md)
 ## Authors and acknowledgment
 
 Authors:
-- Yessine Choura
-- Denis Dobanda
+- [Yessine Choura](https://github.com/ychoura)
+- [Denis Dobanda](https://github.com/theDeniZ)
 
 Special Thanks:
 - Sabrina Geiger
