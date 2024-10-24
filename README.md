@@ -24,7 +24,7 @@ Already implemented Features are:
 - [x] Hooks Detection
 - [x] Simulator Detection
 
-You can see them in action with the [Example App](./SecurityToolkitExample) we've provided
+You can see them in action with the [Example App](./example) we've provided
 
 ## Installation
 
@@ -33,13 +33,12 @@ Swift Package Manager
 
 ### pub.dev
 
-`.package(url: "https://github.com/EXXETA/iOS-Security-Toolkit.git", from:
+`.package(url: "https://github.com/EXXETA/Flutter-Security-Toolkit.git", from:
 "1.0.0")`
 
+> [!IMPORTANT]
+> Make sure your `android/build.gradle` contains following:
 
-!Important:
-
-Make sure your `android/build.gradle` contains following:
 ```
 allprojects {
     repositories {
