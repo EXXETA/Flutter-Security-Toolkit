@@ -33,7 +33,7 @@ Swift Package Manager
 
 ### pub.dev
 
-`.package(url: "https://github.com/EXXETA/iOS-Security-Toolkit.git", from:
+`.package(url: "https://github.com/EXXETA/Flutter-Security-Toolkit.git", from:
 "1.0.0")`
 
 > [!IMPORTANT]
