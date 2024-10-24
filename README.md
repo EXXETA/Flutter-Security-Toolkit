@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/github/license/EXXETA/Flutter-Security-Toolkit.svg?style=flat-square)
 ![Release](https://img.shields.io/github/release/EXXETA/Flutter-Security-Toolkit.svg?style=flat-square)
 
-<img src="./doc/1.png" width=300 alt="screenshot"/>
+![Screenshot](./doc/1.png)
 
 In a world where mobile devices hold vast amounts of personal and
 business-critical data, security is no longer optional — it's essential.
