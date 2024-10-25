@@ -26,11 +26,27 @@ void main() {
         initialPlatform, isInstanceOf<MethodChannelFlutterSecurityToolkit>());
   });
 
-  test('getPlatformVersion', () async {
+  test('areRootPrivilegesDetected', () async {
     MockFlutterSecurityToolkitPlatform fakePlatform =
         MockFlutterSecurityToolkitPlatform();
     FlutterSecurityToolkitPlatform.instance = fakePlatform;
 
     expect(await ThreatDetectionCenter.areRootPrivilegesDetected(), false);
+  });
+
+  test('areHooksDetected', () async {
+    MockFlutterSecurityToolkitPlatform fakePlatform =
+        MockFlutterSecurityToolkitPlatform();
+    FlutterSecurityToolkitPlatform.instance = fakePlatform;
+
+    expect(await ThreatDetectionCenter.areHooksDetected(), false);
+  });
+
+  test('isSimulatorDetected', () async {
+    MockFlutterSecurityToolkitPlatform fakePlatform =
+        MockFlutterSecurityToolkitPlatform();
+    FlutterSecurityToolkitPlatform.instance = fakePlatform;
+
+    expect(await ThreatDetectionCenter.isSimulatorDetected(), false);
   });
 }
