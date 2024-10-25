@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_security_toolkit/threat_detection_center.dart';
+import 'package:flutter_security_toolkit/flutter_security_toolkit.dart';
 
 void main() {
   runApp(const MyApp());
