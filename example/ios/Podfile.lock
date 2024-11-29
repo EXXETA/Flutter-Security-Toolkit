@@ -1,14 +1,20 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_security_toolkit (0.0.1):
+  - flutter_security_toolkit (1.0.1):
     - Flutter
+    - SecurityToolkit (~> 1.0)
   - integration_test (0.0.1):
     - Flutter
+  - SecurityToolkit (1.0.1)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_security_toolkit (from `.symlinks/plugins/flutter_security_toolkit/ios`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SecurityToolkit
 
 EXTERNAL SOURCES:
   Flutter:
@@ -20,9 +26,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_security_toolkit: 4bfaa6b0e58669037ca16f97b66ada44793fdaa3
+  flutter_security_toolkit: 73412e795f89286c565f7f91b76b2c4c610c953a
   integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  SecurityToolkit: 51927d4723e634bddb83a4d16e86940b344fa6a4
 
 PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
