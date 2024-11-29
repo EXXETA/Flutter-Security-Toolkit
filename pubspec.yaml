@@ -1,6 +1,6 @@
 name: flutter_security_toolkit
 description: "A Mobile Security Toolkit providing easy API to check device status (Root, Hooks, Simulator, etc)"
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/EXXETA/Flutter-Security-Toolkit
 
 environment:
