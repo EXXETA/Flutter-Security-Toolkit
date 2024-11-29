@@ -2,8 +2,13 @@
 
 ![License](https://img.shields.io/github/license/EXXETA/Flutter-Security-Toolkit.svg?style=flat-square)
 ![Release](https://img.shields.io/github/release/EXXETA/Flutter-Security-Toolkit.svg?style=flat-square)
+[![pub package](https://img.shields.io/pub/v/flutter_security_toolkit.svg?style=flat-square)](https://pub.dev/packages/flutter_security_toolkit)
 
-<img src="./docs/1.png" width=300  alt="screenshot"/>
+|             | Android | iOS   |
+|-------------|---------|-------|
+| **Support** | SDK 28+ | 13.0+ |
+
+![Screenshot](./doc/1.png)
 
 In a world where mobile devices hold vast amounts of personal and
 business-critical data, security is no longer optional — it's essential.
@@ -32,22 +37,11 @@ You can use the Mobile Security Toolkit in your project by importing it with
 Swift Package Manager
 
 ### pub.dev
-
-`.package(url: "https://github.com/EXXETA/Flutter-Security-Toolkit.git", from:
-"1.0.0")`
-
-> [!IMPORTANT]
-> Make sure your `android/build.gradle` contains following:
+Add the following to your `pubspec.yaml`:
 
 ```
-allprojects {
-    repositories {
-        .
-        .
-        .
-        maven { url 'https://jitpack.io' }
-    }
-}
+dependencies:
+  flutter_security_toolkit: ^1.0.1
 ```
 
 ## Usage
