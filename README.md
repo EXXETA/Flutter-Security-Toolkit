@@ -2,6 +2,11 @@
 
 ![License](https://img.shields.io/github/license/EXXETA/Flutter-Security-Toolkit.svg?style=flat-square)
 ![Release](https://img.shields.io/github/release/EXXETA/Flutter-Security-Toolkit.svg?style=flat-square)
+[![pub package](https://img.shields.io/pub/v/flutter_security_toolkit.svg?style=flat-square)](https://pub.dev/packages/flutter_security_toolkit)
+
+|             | Android | iOS   |
+|-------------|---------|-------|
+| **Support** | SDK 28+ | 13.0+ |
 
 ![Screenshot](./doc/1.png)
 
@@ -36,7 +41,7 @@ Add the following to your `pubspec.yaml`:
 
 ```
 dependencies:
-  flutter_security_toolkit: ^1.0.0
+  flutter_security_toolkit: ^1.0.1
 ```
 
 ## Usage
