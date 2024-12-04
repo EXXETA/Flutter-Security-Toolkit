@@ -4,8 +4,8 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_security_toolkit'
-  s.version          = '1.0.1'
-  s.summary          = 'Internal flutter_security_toolkit'
+  s.version          = '1.0.2'
+  s.summary          = 'Internal security_toolkit'
   s.description      = <<-DESC
 Internal flutter_security_toolkit
                        DESC

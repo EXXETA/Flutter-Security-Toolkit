@@ -1,6 +1,6 @@
 name: flutter_security_toolkit
 description: "A Mobile Security Toolkit providing easy API to check device status (Root, Hooks, Simulator, etc)"
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/EXXETA/Flutter-Security-Toolkit
 
 environment:
@@ -16,12 +16,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  pigeon: ^22.6.4
 
 flutter:
   plugin:
     platforms:
       android:
-        package: com.example.flutter_security_toolkit
-        pluginClass: FlutterSecurityToolkitPlugin
+        package: com.exxeta.security_toolkit
+        pluginClass: ThreatCenterApiImpl
       ios:
-        pluginClass: FlutterSecurityToolkitPlugin
+        pluginClass: ThreatCenterApiImpl

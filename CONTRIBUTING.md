@@ -63,6 +63,9 @@ and ios. Please refer to readme to participate in native development
 Please use the latest Flutter Version. Use the provided example project to test 
 or bug report any existing or new features. 
 
+Use Pigeon to update interfaces between flutter and native libraries:
+`dart run pigeon --input lib/src/pigeon.dart`
+
 ## Submitting changes
 
 Before submitting your changes as a pull request, please make sure to format 
