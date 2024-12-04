@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_security_toolkit (1.0.1):
+  - flutter_security_toolkit (1.0.2):
     - Flutter
     - SecurityToolkit (~> 1.0)
   - integration_test (0.0.1):
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_security_toolkit: 73412e795f89286c565f7f91b76b2c4c610c953a
+  flutter_security_toolkit: 82972aec2bbed79dc6b22fac76aed57419e24c73
   integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
   SecurityToolkit: 51927d4723e634bddb83a4d16e86940b344fa6a4
 
