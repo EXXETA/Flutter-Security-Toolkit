@@ -19,6 +19,7 @@ class _MyAppState extends State<MyApp> {
   bool _jailbroken = false;
   bool _hooks = false;
   bool _simulator = false;
+  bool _debugger = false;
 
   @override
   void initState() {
@@ -31,10 +32,11 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      final (jailbroken, hooks, simulator) = await (
+      final (jailbroken, hooks, simulator, debugger) = await (
         ThreatDetectionCenter.areRootPrivilegesDetected(),
         ThreatDetectionCenter.areHooksDetected(),
         ThreatDetectionCenter.isSimulatorDetected(),
+        ThreatDetectionCenter.isDebuggerDetected(),
       ).wait;
 
       if (!mounted) return;
@@ -43,6 +45,7 @@ class _MyAppState extends State<MyApp> {
         _jailbroken = jailbroken ?? _jailbroken;
         _hooks = hooks ?? _hooks;
         _simulator = simulator ?? _simulator;
+        _debugger = debugger ?? _debugger;
       });
     } on PlatformException {
       // Do nothing
