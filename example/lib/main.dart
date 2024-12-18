@@ -97,6 +97,11 @@ class _MyAppState extends State<MyApp> {
                       description: 'Running the application in an Simulator',
                       status: _simulator,
                     ),
+                    ThreatCard(
+                      title: 'Debugger',
+                      description: 'A tool that allows developers to inspect and modify the execution of a program in real-time, potentially exposing sensitive data or allowing unauthorized control.',
+                      status: _debugger,
+                    ),
                   ],
                 ),
               );
