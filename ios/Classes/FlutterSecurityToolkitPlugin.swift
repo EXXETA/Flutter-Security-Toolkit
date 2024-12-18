@@ -17,6 +17,8 @@ public class FlutterSecurityToolkitPlugin: NSObject, FlutterPlugin {
         result(ThreatDetectionCenter.areHooksDetected)
     case "isSimulatorDetected":
         result(ThreatDetectionCenter.isSimulatorDetected)
+    case "isDebuggerDetected":
+        result(ThreatDetectionCenter.isDebuggerDetected)
     default:
       result(FlutterMethodNotImplemented)
     }
