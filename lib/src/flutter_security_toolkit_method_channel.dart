@@ -29,4 +29,11 @@ class MethodChannelFlutterSecurityToolkit
         await methodChannel.invokeMethod<bool>('isSimulatorDetected');
     return version;
   }
+
+  @override
+  Future<bool?> isDebuggerDetected() async {
+    final version =
+    await methodChannel.invokeMethod<bool>('isDebuggerDetected');
+    return version;
+  }
 }

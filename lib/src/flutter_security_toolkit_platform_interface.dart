@@ -36,4 +36,9 @@ abstract class FlutterSecurityToolkitPlatform extends PlatformInterface {
     throw UnimplementedError(
         'isRunningInSimulator() has not been implemented.');
   }
+
+  Future<bool?> isDebuggerDetected() {
+    throw UnimplementedError(
+        'isDebuggerDetected() has not been implemented.');
+  }
 }

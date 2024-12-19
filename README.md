@@ -53,6 +53,7 @@ Use the gettable variables to get current status of the device:
 - `Future<bool?> areRootPrivilegesDetected()`
 - `Future<bool?> areHooksDetected()`
 - `Future<bool?> isSimulatorDetected()`
+- `Future<bool?> isDebuggerDetected()`
 
 ### Async Stream API
 

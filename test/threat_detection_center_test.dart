@@ -15,6 +15,9 @@ class MockFlutterSecurityToolkitPlatform
 
   @override
   Future<bool?> isSimulatorDetected() => Future.value(false);
+
+  @override
+  Future<bool?> isDebuggerDetected() => Future.value(false);
 }
 
 void main() {
@@ -48,5 +51,13 @@ void main() {
     FlutterSecurityToolkitPlatform.instance = fakePlatform;
 
     expect(await ThreatDetectionCenter.isSimulatorDetected(), false);
+  });
+
+  test('isDebuggerDetected', () async {
+    MockFlutterSecurityToolkitPlatform fakePlatform =
+    MockFlutterSecurityToolkitPlatform();
+    FlutterSecurityToolkitPlatform.instance = fakePlatform;
+
+    expect(await ThreatDetectionCenter.isDebuggerDetected(), false);
   });
 }

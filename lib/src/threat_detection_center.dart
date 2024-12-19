@@ -23,4 +23,15 @@ class ThreatDetectionCenter {
   static Future<bool?> isSimulatorDetected() {
     return FlutterSecurityToolkitPlatform.instance.isSimulatorDetected();
   }
+
+  /// Will check if your application is being traced by a debugger.
+  ///
+  /// Returns true if a debugger is detected.
+  ///
+  /// A debugger is a tool that allows developers to inspect and modify the execution of a program in real-time, potentially exposing sensitive data or allowing unauthorized control.
+  ///
+  /// Please note that Apple itself uses a debugger during reviews. If you perform a debugger prevention, you could prevent Apple from carrying out a complete review, which they certainly will not like.
+  static Future<bool?> isDebuggerDetected() {
+    return FlutterSecurityToolkitPlatform.instance.isDebuggerDetected();
+  }
 }
