@@ -2,7 +2,7 @@
   dartOut: 'lib/src/threat_center_api.g.dart',
   dartOptions: DartOptions(),
   kotlinOut:
-      'android/src/main/kotlin/com/exxeta/flutter_security_toolkit/ThreatCenterApi.g.kt',
+      'android/src/main/kotlin/com/exxeta/security_toolkit/ThreatCenterApi.g.kt',
   kotlinOptions: KotlinOptions(),
   swiftOut: 'ios/Classes/ThreatCenterApi.g.swift',
   swiftOptions: SwiftOptions(),
